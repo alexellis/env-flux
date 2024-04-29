@@ -1,0 +1,5 @@
+resources:
+  - env.yaml
+
+patchesStrategicMerge:
+  - label-patch.yaml
