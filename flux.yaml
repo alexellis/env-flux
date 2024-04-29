@@ -14,7 +14,7 @@ metadata:
   name: env
 spec:
   interval: 10m
-  targetNamespace: env
+  targetNamespace: openfaas-fn
   sourceRef:
     kind: GitRepository
     name: env-repo
