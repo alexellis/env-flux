@@ -1,0 +1,7 @@
+apiVersion: openfaas.com/v1
+kind: Function
+metadata:
+  name: env
+  namespace: openfaas-fn
+  labels:
+    stage: prod
