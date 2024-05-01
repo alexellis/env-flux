@@ -4,7 +4,7 @@ metadata:
   name: env-repo
 spec:
   url: https://github.com/alexellis/env-flux.git
-  interval: 5m
+  interval: 20m
   ref:
     branch: master
 ---
@@ -13,8 +13,8 @@ kind: Kustomization
 metadata:
   name: env
 spec:
-  interval: 10m
-  timeout: 1m
+  interval: 20m
+  timeout: 5m
   targetNamespace: openfaas-fn
   sourceRef:
     kind: GitRepository
